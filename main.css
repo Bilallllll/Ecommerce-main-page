@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f2f2f2;
+}
+.nav{
+    height: 70px;
+    display: flex;
+    background: white;
+}
+
+.logo img{
+    width: 150px;
+    margin-top: 10px;
+}
+
+.menu table{
+    margin-left: 60px;
+}
+
+.searchbar{
+    width: 350px;
+    height: 30px;
+    margin-top: -5px;
+    border-radius: 50px;
+    border: 1px solid #39792c;
+}
+
+.menu table tr td{
+    padding-top: 17px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nav table tr td:hover{
+    color: #39792c;
+}
+
+.menu .active{
+    color: #39792c;
+}
+
+.btn button{
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 13px;
+    margin-left: 5px;
+    background: none;
+    border: 2px solid #39792c;
+}
+
+.btn .register{
+    background: #39792c;
+    color: white;
+}
+
+.btn .register:hover{
+    background: #25541a;
+    transition: 0.5s;
+    border: 2px solid #25541a;
+}
+
+.btn .login:hover{
+    background: #39792c;
+    color: white;
+    transition: 0.5s;
+}
+.buttons{
+    display: flex;
+    margin-left: 20px;
+}
+
+.cart{
+    font-size: 30px;
+
+}
+
+.cartmain{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.zero{
+    width: 15px;
+    height: 15px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 10px;
+    margin-left: -6px;
+}
+
+.mobilenav{
+    display: none;
+}
+.searchmenu{
+    display: none;
+}
+
+/* 14/5/24 */
+
+.productcat{
+    width: 100%;
+    height: 100px;
+    margin-top: -10px;
+    background: white;
+    display: flex;
+}
+
+.productcat img{
+    width: 150px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+
+.cardwrapper{
+    padding: 70px;
+    padding-top: 20px;
+}
+
+.card{
+    margin-top: 20px;
+    width: 250px;
+    height: 300px;
+    background: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imagesection h4{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.imagecard{
+    display: flex;
+    justify-content: center;
+}
+
+.imagecard img{
+    width: 120px;
+    height: 140px;
+}
+
+.cardcontentnew{
+    padding: 10px;
+}
+
+.cardcontentnew p{
+    margin-left: 40px;
+}
+
+.cardinner{
+    display: flex;
+}
+
+.blogcard{
+    width: 300px;
+    height: 320px;
+    background: gainsboro;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.blogcard img{
+    width: 300px;
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.endwrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.blogcard p .arrow{
+    margin-top: 5px;
+}
+/* mobile screen code */
+
+@media only screen and (min-width:100px) and (max-width:600px){
+    .cardinner{
+        display: block;
+    }
+
+    .endwrapper{
+        display: block;
+    }
+    .blogcard{
+        margin-bottom: 10px;
+    }
+    .mobilesectioncontent{
+        display: flex;
+        justify-content: center;
+    }
+   
+    .nav{
+        display: none;
+    }
+    .mobilenav{
+        background: white;
+    }
+
+    .logo-mobile img{
+        width: 130px;
+        padding: 10px;
+    }
+
+    .mobilenav{
+        display: flex;
+    }
+
+    .toggleicon{
+        font-size: 30px;
+        border: 1px solid black;
+        padding: 2px;
+        border-radius: 5px;
+    }
+
+    .toggle{
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+        width: 320px;
+    }
+    .searchmenu{
+        background: #FcFAFA;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 4px 2px -2px black;
+    }
+    .menu1 .contentmenu{
+        margin-top: 15px;
+        display: flex;
+    }
+
+    .contentmenu h2{
+        font-size: 22px;
+    }
+    .menu1{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .mymenuicon{
+        font-size: 25px;
+    }
+    .menu1 form input{
+        width: 250px;
+        height: 30px;
+        border-radius: 50px;
+        border: 1px solid #25541a;
+        margin-top: 10px;
+    }
+}
+
+
+
+
